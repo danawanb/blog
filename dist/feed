@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://localhost:8000/blog</id>
+    <title>My Blog</title>
+    <updated>2025-12-11T07:02:01.225Z</updated>
+    <generator>Feed (https://github.com/jpmonette/feed) for Deno</generator>
+    <link rel="alternate" href="http://localhost:8000/blog"/>
+    <link rel="self" href="http://localhost:8000/feed"/>
+    <subtitle>This is my new blog.</subtitle>
+    <icon>http://localhost:8000/favicon.ico</icon>
+    <rights>Copyright 2025 http://localhost:8000</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello world!]]></title>
+        <id>http://localhost:8000/hello_world</id>
+        <link href="http://localhost:8000/hello_world"/>
+        <updated>2025-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my first blog post!]]></summary>
+        <published>2025-12-11T00:00:00.000Z</published>
+        <rights>Copyright 2025 http://localhost:8000</rights>
+    </entry>
+</feed>
